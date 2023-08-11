@@ -1,0 +1,1 @@
+This is my example webpage for my career simulation that contains thre pages a home page, an about me page and a portfolio page.
