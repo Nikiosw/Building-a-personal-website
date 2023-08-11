@@ -42,7 +42,7 @@ label.logo{
     font-weight: bold;
 }
 #splash{
-    background-image: url(arches.jpeg);
+    /* color: black;
     background-position: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,14 +52,21 @@ label.logo{
     padding: 0;
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: flex; */
     
 }
+body{
+    background-image: url(arches.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 ul{
     list-style-type: none;
 }
 .cover{
-    color: white; 
+    color: white;
     align-items: center;
     justify-content: center;
     display: flex;
