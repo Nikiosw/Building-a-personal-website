@@ -42,7 +42,7 @@ label.logo{
     font-weight: bold;
 }
 #splash{
-    /* color: black;
+    color: black;
     background-position: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ label.logo{
     padding: 0;
     align-items: center;
     justify-content: center;
-    display: flex; */
+    display: flex;
     
 }
 body{
@@ -73,6 +73,7 @@ ul{
     flex-direction: column;
     height: 100;
     width: 100;
+    
     
     
 }
@@ -130,25 +131,51 @@ img{
     border-width: 5px; 
     padding:20px 
 }
-.projects{
+.project1{
     display: flex;
+    flex-direction: column;
     background-color: rgba(220, 216, 201, 0.937);
     position: relative;
     align-items: center;
    border: 5px solid black;
-   padding: 50px;
-   margin: 100px; 
+   padding: 30px;
+   margin: 20px;  
+   height: 200px;
 }
-.contact-box{
+.project2{
     display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 216, 201, 0.937);
+    position: relative;
+    align-items: center;
+   border: 5px solid black;
+   padding: 30px;
+   margin: 20px; 
+   height: 200px;
+}
+.project3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 216, 201, 0.937);
+    position: relative;
+    align-items: center;
+   border: 5px solid black;
+   padding: 30px;
+   margin: 20px; 
+   height: 200px;
+}
+
+.contact-box{
     
+    margin-right: auto;
+    margin-left: auto;
     width: 500px;
     background-color: rgba(220, 216, 201, 0.594);
     box-shadow: 0 0 20px #999;
     top: 50%;
     left: 50%;
     transform: translate(-50%-50%);
-    position: absolute;
+
 }
 form{
     margin:35px;
